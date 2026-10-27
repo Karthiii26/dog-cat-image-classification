@@ -1,0 +1,41 @@
+# Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter & IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Dataset downloads (keep structure, ignore large bulk raw files if desired)
+dataset/raw/*.zip
+dataset/raw/*.tar.gz
+
+# Logs & temp files
+*.log
+.system_generated/
